@@ -1,0 +1,75 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  background-color: #115ff4;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+
+
+
+#jeopardy {
+  margin-top: 5rem;
+	text-align: center;
+	font-size: 10px;
+	color: rgb(255, 255, 255);
+	border-collapse: collapse;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#jeopardy th, #jeopardy td {
+  border: solid 1px white;
+  width: 12em;
+  padding: 1em;
+}
+
+th {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  height: 4em;
+  text-shadow: darkgoldenrod 1px 1px;
+}
+td {
+  height: 9em;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+div {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+button {
+	margin-top: 2rem;
+  margin-bottom: 2rem;
+	padding: 10px;
+	background-color: #060ce9;
+	color: white;
+	border: solid 1px white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+td:hover {
+  cursor: pointer;
+}
